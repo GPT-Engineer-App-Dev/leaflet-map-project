@@ -1,12 +1,9 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import LeafletMap from '../components/LeafletMap';
 
 const Index = () => {
   return (
-    <div className="flex-grow flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
-      </div>
+    <div className="flex-grow">
+      <LeafletMap />
     </div>
   );
 };
